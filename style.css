@@ -1,0 +1,120 @@
+*{
+    font-family: "inter";
+
+}
+
+#cabecalho{
+
+background-color: #303030;
+height: 275px;
+color : white;
+
+
+}
+
+h1{    
+    font-size: 40px;
+    font-weight:500;
+    padding-top: 115px;
+    padding-left: 30px;
+    
+}
+
+#p-cabecalho{
+    color: white;
+    font-size: 12px;
+    padding-left: 30px;
+
+}
+
+#informacao{
+    background-color: #F9F9F9;
+    height: 130px;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.icone{
+    margin: 50px 0px 50px 100px;
+    width: 175px;
+}
+
+#foto1{
+
+    width: 300px;
+    padding-top: 30px;
+    padding-right: 100px;
+}
+
+#historia{
+    background-color: white;
+    height: 420px;
+    font-size: 20px;
+    font-weight: 300;
+    display: grid;
+    grid-auto-flow: column;
+    columns:auto;
+    
+}
+
+h2{
+    font-size: 30px;
+    font-weight:500;
+}
+
+#hHistoria{
+
+    margin-top: 100px;
+    margin: 120px 20px 0px 75px;
+
+}
+
+#pHistoria{
+
+    margin: 20px 100px 0px 75px;
+}
+
+#formulario{
+
+    background-color: #303030;
+    height: 275px;
+    color: white;
+    text-align: center;
+       
+}
+
+#titulo-formulario{
+    font-size: 20px;
+    padding-top: 35px;
+}
+
+.inpTexto{
+    border-radius: 4px;
+    border: 0px;
+    padding-left: 10px;
+    width: 200px;
+    height: 30px;
+    margin-bottom: 25px;
+}
+
+
+#btnFale{
+    background-color: #C07212;
+    color: white;
+    border: 0px;
+    border-radius: 4px;
+    width: 150px;
+    height: 30px;
+    cursor: pointer;
+
+
+}
+
+#btnFale:hover{
+    color: white;
+    transform: translateY(-7px);
+    box-shadow: 0px 5px 5px #d79f5b;
+    transition-duration: 0.5s;
+}
+
